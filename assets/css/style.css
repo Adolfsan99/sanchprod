@@ -1,7 +1,10 @@
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Courier:100,300,400,700,900");
-body {
-    font-family: 'Inconsolata', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+    font-family: 'Source Code Pro', monospace;
 }
 
 #page-wraper {
