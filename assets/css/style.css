@@ -42,7 +42,6 @@ p {
 
 h4 {
     font-size: 26px;
-    font-weight: 700;
     color: #fff;
     letter-spacing: 0.25px;
 }
@@ -93,6 +92,10 @@ html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+image-profile {
+  width: 70%;
 }
 
 *,
@@ -401,6 +404,7 @@ button:hover {
 .right-image img {
     object-fit: cover;
     border-radius: 0px;
+    width: 48px;
 }
 
 .right-image-post h4,
