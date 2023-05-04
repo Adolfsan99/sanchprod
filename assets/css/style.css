@@ -1,8 +1,6 @@
 @import url("fontawesome.css");
-@import url("https://fonts.googleapis.com/css?family=Courier:100,300,400,700,900");
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 * { font-family: "Source Code Pro", monospace; }
-.fa-brands, .fa-at { font-size: 24px; padding-bottom: 2px; }
+.fa-brands, .fa-at { font-size: 24px; padding-bottom: 0px; }
 #page-wraper { background: url("../images/page-bg.png") center center / cover no-repeat fixed; width: 100%; }
 body { overflow-x: hidden; }
 input, select, textarea { outline: none; }
@@ -28,16 +26,16 @@ image-profile { width: 70%; }
 .main-nav { text-align: center; }
 .main-nav li:last-child a { border-bottom: 2px solid rgb(35, 35, 35); }
 .main-nav li { display: block; }
-.main-nav li a { display: inline-block; font-size: 0.8rem; font-weight: 900; border-radius: 20px; color: rgb(34, 225, 139); width: auto; transition: all 0.5s ease 0s; padding: 5px 20px; margin-bottom: 10px; }
-.main-nav li:hover a, .main-nav li.active a { background: rgb(34, 225, 139); color: rgb(35, 35, 35); border-radius: 10px; padding: 10px; height: 3em; }
+.main-nav li a { display: inline-block; font-size: 0.8rem; font-weight: 900; border-radius: 20px; color: rgb(34, 225, 139); width: auto; transition: all 0.5s ease 0s; padding: 2px 20px; margin-bottom: 10px; }
+.main-nav li:hover a, .main-nav li.active a { background: rgb(34, 225, 139); color: rgb(35, 35, 35); border-radius: 10px; padding: 10px; }
 .menu .image { margin-top: 60px; }
-.menu .image img { width: 6rem; height: 6rem; border-radius: 0%; text-align: center; }
-.menu .author-content { margin: 25px 0px; }
+.menu .image img { width: 6rem; height: 6rem; padding: 10px; border-radius: 0%; text-align: center; }
+.menu .author-content { margin: 15px 0px; }
 .menu .author-content h4 { margin-bottom: 0px; font-size: 16px; }
 .menu .author-content span { font-size: 13px; font-style: italic; color: rgb(255, 255, 255); }
 .menu .social-network { margin-top: 30px; }
-.menu .social-network ul li { margin: 0px 3px; }
-.menu .social-network ul li a { width: 32px; height: 32px; margin: 8px; display: inline-block; text-align: center; line-height: 40px; border-radius: 12px; background-color: rgb(35, 35, 35); color: rgb(36, 225, 139); font-size: 14px; transition: all 0.5s ease 0s; }
+.menu .social-network ul li { margin: 0px; }
+.menu .social-network ul li a { width: 32px; height: 32px; margin: 5px 0px; display: inline-block; text-align: center; line-height: 40px; border-radius: 12px; background-color: rgb(35, 35, 35); color: rgb(36, 225, 139); font-size: 14px; transition: all 0.5s ease 0s; }
 .menu .social-network ul li a:hover { background-color: rgb(36, 225, 139); color: rgb(35, 35, 35); }
 .menu .copyright-text { position: relative; margin-top: 60px; }
 .menu .copyright-text p { border-top: 1px solid rgba(250, 250, 250, 0.1); display: inline-block; width: 100%; padding-left: 30px; padding-right: 30px; padding-top: 30px; font-size: 13px; }
@@ -96,7 +94,7 @@ section.my-work .section-heading { text-align: center; padding: 80px 45px 50px; 
 .isotope-toolbar { text-align: center; margin: 10px; }
 .isotope-toolbar p { border-top: 1px solid rgb(35, 35, 35); padding-top: 15px; }
 .isotope-toolbar a { color: rgb(35, 35, 35); }
-.isotope-item { position: relative; width: 48%; margin: 1% 1% 5px; border-bottom: 2px solid rgba(250, 250, 250, 0.1); padding-bottom: 5px; }
+.isotope-item {position: relative;width: 48%;margin: 1% 1% 5px;border-bottom: 0px solid rgba(250, 250, 250, 0.1);padding-bottom: 5px;}
 .isotope-item img { top: 0px; left: 0px; width: 100%; height: 100%; }
 .lazyload { background: rgb(247, 247, 247); }
 .lazyloading { background: url("//afarkas.github.io/lazysizes/assets/imgs/loader.gif") center center no-repeat rgb(247, 247, 247); min-height: 60px; }
@@ -117,13 +115,13 @@ section.contact-me { border-bottom: none; }
 #contact textarea:focus { outline: none; box-shadow: none; }
 #contact { text-align: center; }
 @media screen and (max-width: 1680px) {
-  .menu {left: 2%;width: 17%;}
+  .menu { left: 2%; width: 22%; }
   .section { color: rgb(35, 35, 35); width: 65%; right: 5%; left: 30%; }
 }
 @media screen and (max-width: 1680px) and (min-width: 846px) {
   .menu .social-network ul li a { width: 36px; height: 36px; line-height: 36px; border-radius: 10px; }
   .menu .social-network ul li { margin: 0px; }
-  .menu .image { margin-top: 60px; }
+  .menu .image {margin-top: 44px;}
 }
 @media screen and (max-width: 1280px) {
   .menu { left: 1%; }
@@ -131,9 +129,9 @@ section.contact-me { border-bottom: none; }
   .right-image-post p, .left-image-post p { margin-top: 15px; }
   .right-image-post .white-button, .left-image-post .white-button { margin-top: 25px; }
 }
-.menu .container { padding-left: 26px; padding-right: 26px; }
+.menu .container { padding-left: 10px; padding-right: 10px; }
 @media screen and (max-width: 1280px) and (min-width: 846px) {
-  .menu { width: 21%; }
+  .menu { width: 25%; }
 }
 #menu-toggle, #menu-close { display: none; }
 @media screen and (max-width: 845px) {
