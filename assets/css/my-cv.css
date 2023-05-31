@@ -1,12 +1,14 @@
-body {
+*{
+padding: 0%;
+margin: 0%;
+}
+.page-1, .page-2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
 }
-
 .box-education{
-    width: 40%;
+    width: 50%;
     height: 1000px;
     background-color: #242424;
 }
@@ -21,17 +23,22 @@ body {
     background-color: #505050;
 }
 .box-banner{
-    width: 60%;
+    width: 100%;
+    height: 200px;
+    background-color: #767676;
+}
+.box-banner-2{
+    width: 100%;
     height: 200px;
     background-color: #767676;
 }
 .box-information{
-    width: 155px;
-    height: 400px;
+    width: 50%;
+    height: 1000px;
     background-color: #e3e3e3;
 }
 .box-extrainformation{
-    width: 50%;
+    width: 100%;
     height: 100px;
     background-color: black;
 }
